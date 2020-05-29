@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+   
+      
+    
+}
+nav{
+    background-color:#db5252;
+    color:white;  
+       
+}
+
+nav, #navbar{
+    position:sticky;
+    top:0;    
+}
+
+#navbar, main, footer{
+    width:900px;
+    margin:auto;
+}
+#stWhiteCol{
+    color:white;  
+    text-transform:uppercase;
+     font-weight: bold;     
+}
+p:first-child{
+    float:left;
+    padding: 16px 30px        
+}
+main{
+    width: 65%;
+    margin: 1%;
+    text-align: justify;    
+}
+section {   
+/*    margin:10px;*/
+    padding: 30px;  
+    background-color:#f4f4f4
+    }
+
+aside{
+    background-color: #bf6c87;
+    float: right;
+    width:30%;
+    height: 600px;  
+    background-color:#f4f4f4;
+    margin:10px 20px
+}
+img{
+/*    height: 150px;*/
+    width: 90%;
+   padding: 10px;
+}
+p{
+    color:black;
+    padding: 10px;
+}
+li{
+    display: inline-block;
+    text-align:center;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;   
+ 
+    background-color: #db5252; 
+     }
+
+li a {
+    display: inline-block;
+    color:white;
+    padding: 6px;
+    text-decoration:none;
+    font-weight: bold;       
+    width:100px;
+    text-align: center;
+   }
+ a:hover{
+        background-color: #802e2e;
+        }
+
+#navbar::after{
+    content: " ";
+    display: table;
+    clear:both;
+}
+ table {
+            font-size: 12px;
+            text-align: left;
+            margin:10px;
+        }
+th, td{
+    padding: 10px 20px 10px 0;   
+    height: 10px;     
+}
+
+ td{
+   padding-left: 10px;
+   padding-right: 10px}
+
+#mainDiv{    
+    width: 94%;
+    margin: 10px;
+    padding: 0;
+    border: 1px solid darkgrey;
+    content: " ";
+    display: table;
+    clear: both;
+    margin-bottom: 20px;       
+}
+#mainDiv img{
+    width: 80%;
+    height: 150px;
+    text-align: center;    
+}
+
+#mainDiv div{
+    float:left;
+    width: 15%;
+    margin: 0.82%
+        }
+
+#mainDiv  p{
+    text-align: center;
+    font-size: 12px;
+        }
+
+h3{
+     
+    font-size: 18px;
+    margin: 10px;
+}
